@@ -85,8 +85,10 @@ public class StudentDto {
 
 	@Override
 	public String toString() {
-		return "StudentDto [name=" + name + ", age=" + age + ", height=" + height + ", address=" + address + ", kor="
-				+ kor + ", eng=" + eng + ", math=" + math + "]";
+//		return "StudentDto [name=" + name + ", age=" + age + ", height=" + height + ", address=" + address + ", kor="
+//				+ kor + ", eng=" + eng + ", math=" + math + "]";
+		return  name + "-" + age + "-" + height + "-" + address + "-"
+		+ kor + "-" + eng + "-" + math;
 	}
 	
 	public void print() {
